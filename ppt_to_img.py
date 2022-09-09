@@ -73,11 +73,11 @@ if __name__ == '__main__':
         #需要创建一个与PPT同名的文件夹，判断下，如果不存在则创建
         if not os.path.exists(pptName):
             os.mkdir(pptName)
-        #PPT转PNG
-        pptToImg(pptFullName, pptName, ppSaveAsPNG)
+            #PPT转PNG
+            pptToImg(pptFullName, pptName, ppSaveAsPNG)
 
-        #PPT转JPEG
-        # pptToImg(pptFullName, pptName, ppSaveAsJPG)
+            #PPT转JPEG
+            #pptToImg(pptFullName, pptName, ppSaveAsJPG)
 
     print("PPT转图片完成")
 
